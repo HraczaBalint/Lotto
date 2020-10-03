@@ -8,41 +8,58 @@ namespace Lotto
 {
     class Adatok
     {
-        private int Ev;
-        private int Het;
-        private int Datum;
-        private int OtosTalalat;
-        private int OtosNyeremeny;
-        private int NegyesTalalat;
-        private int NegyesNyeremeny;
-        private int HarmasTalalat;
-        private int HarmasNyeremeny;
-        private int KEttesTalalat;
-        private int KettesNYeremeny;
-        private int ElsoSzam;
-        private int MasodikSzam;
-        private int HarmadikSzam;
-        private int NegyedikSzam;
-        private int OtodikSzam;
+        private int ev;
+        private int het;
+        private string datum;
+        private int otosTalalat;
+        private string otosNyeremeny;
+        private int negyesTalalat;
+        private string negyesNyeremeny;
+        private int harmasTalalat;
+        private string harmasNyeremeny;
+        private int kettesTalalat;
+        private string kettesNyeremeny;
+        private int elsoSzam;
+        private int masodikSzam;
+        private int harmadikSzam;
+        private int negyedikSzam;
+        private int otodikSzam;
 
-        public Adatok(int ev, int het, int datum, int otosTalalat, int otosNyeremeny, int negyesTalalat, int negyesNyeremeny, int harmasTalalat, int harmasNyeremeny, int kEttesTalalat, int kettesNYeremeny, int elsoSzam, int masodikSzam, int harmadikSzam, int negyedikSzam, int otodikSzam)
+        public Adatok(int ev, int het, string datum, int otosTalalat, string otosNyeremeny, int negyesTalalat, string negyesNyeremeny, int harmasTalalat, string harmasNyeremeny, int kettesTalalat, string kettesNyeremeny, int elsoSzam, int masodikSzam, int harmadikSzam, int negyedikSzam, int otodikSzam)
         {
-            Ev = ev;
-            Het = het;
-            Datum = datum;
-            OtosTalalat = otosTalalat;
-            OtosNyeremeny = otosNyeremeny;
-            NegyesTalalat = negyesTalalat;
-            NegyesNyeremeny = negyesNyeremeny;
-            HarmasTalalat = harmasTalalat;
-            HarmasNyeremeny = harmasNyeremeny;
-            KEttesTalalat = kEttesTalalat;
-            KettesNYeremeny = kettesNYeremeny;
-            ElsoSzam = elsoSzam;
-            MasodikSzam = masodikSzam;
-            HarmadikSzam = harmadikSzam;
-            NegyedikSzam = negyedikSzam;
-            OtodikSzam = otodikSzam;
+            this.ev = ev;
+            this.het = het;
+            this.datum = datum;
+            this.otosTalalat = otosTalalat;
+            this.otosNyeremeny = otosNyeremeny;
+            this.negyesTalalat = negyesTalalat;
+            this.negyesNyeremeny = negyesNyeremeny;
+            this.harmasTalalat = harmasTalalat;
+            this.harmasNyeremeny = harmasNyeremeny;
+            this.kettesTalalat = kettesTalalat;
+            this.kettesNyeremeny = kettesNyeremeny;
+            this.elsoSzam = elsoSzam;
+            this.masodikSzam = masodikSzam;
+            this.harmadikSzam = harmadikSzam;
+            this.negyedikSzam = negyedikSzam;
+            this.otodikSzam = otodikSzam;
         }
+
+        public int Ev { get => ev; set => ev = value; }
+        public int Het { get => het; set => het = value; }
+        public string Datum { get => datum; set => datum = value; }
+        public int OtosTalalat { get => otosTalalat; set => otosTalalat = value; }
+        public string OtosNyeremeny { get => otosNyeremeny; set => otosNyeremeny = value; }
+        public int NegyesTalalat { get => negyesTalalat; set => negyesTalalat = value; }
+        public string NegyesNyeremeny { get => negyesNyeremeny; set => negyesNyeremeny = value; }
+        public int HarmasTalalat { get => harmasTalalat; set => harmasTalalat = value; }
+        public string HarmasNyeremeny { get => harmasNyeremeny; set => harmasNyeremeny = value; }
+        public int KettesTalalat { get => kettesTalalat; set => kettesTalalat = value; }
+        public string KettesNYeremeny { get => kettesNyeremeny; set => kettesNyeremeny = value; }
+        public int ElsoSzam { get => elsoSzam; set => elsoSzam = value; }
+        public int MasodikSzam { get => masodikSzam; set => masodikSzam = value; }
+        public int HarmadikSzam { get => harmadikSzam; set => harmadikSzam = value; }
+        public int NegyedikSzam { get => negyedikSzam; set => negyedikSzam = value; }
+        public int OtodikSzam { get => otodikSzam; set => otodikSzam = value; }
     }
 }

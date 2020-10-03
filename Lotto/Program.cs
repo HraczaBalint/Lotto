@@ -11,7 +11,7 @@ namespace Lotto
         static void Main(string[] args)
         {
             Feladat feladat = new Feladat(new List<Adatok>(), new List<int>());
-            Console.WriteLine(feladat.Bekeres());
+            Console.WriteLine(feladat.Beolvasas());
 
             Console.ReadKey();
         }
