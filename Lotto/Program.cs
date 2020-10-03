@@ -10,7 +10,9 @@ namespace Lotto
     {
         static void Main(string[] args)
         {
+            Feladat feladat = new Feladat(new List<Adatok>());
 
+            Console.ReadKey();
         }
     }
 }
