@@ -112,22 +112,5 @@ namespace Lotto
 
             return null;
         }
-
-
-        public string tk()
-        {
-            int n = 0;
-            for (int i = 0; i < AdatokListaja.Count; i++)
-            {
-                n++;
-                Console.WriteLine("lepes");
-            }
-
-            Console.WriteLine(n);
-
-            return null;
-        }
-
-
     }
 }
