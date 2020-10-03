@@ -111,6 +111,6 @@ namespace Lotto
             Console.WriteLine($"Kettes találatok száma: {KettesTalálatokSzama} \nHármas találatok száma: {HarmasTalalatokSzama} \nNégyes találatok száma: {NegyestalalatokSzama} \nÖtös találatok száma: {OtosTalalatokSzama}");
 
             return null;
-        }
+        } 
     }
 }
